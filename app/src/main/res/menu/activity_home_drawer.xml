@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kindbook"
+            android:icon="@drawable/baseline_book_black_18dp"
+            android:title="@string/menu_qltl" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/baseline_import_contacts_black_18dp"
+            android:title="Book" />
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/baseline_dns_black_18dp"
+            android:title="Bill" />
+        <item
+            android:id="@+id/nav_introduce"
+            android:icon="@drawable/baseline_screen_share_black_18dp"
+            android:title="Introduce" />
+        <item
+            android:id="@+id/nav_changepass"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Change Passwork" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="LogOut" />
+    </group>
+
+
+
+</menu>
